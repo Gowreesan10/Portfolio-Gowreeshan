@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Personal portfolio website design</title>
+	<!---custom css link--->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+	<!---header--->
+	<header>
+		<a href="#" class="logo">
+			<!-- <img src="img/456.png"> -->
+		</a>
+		<div class="bx bx-menu" id="menu-icon"></div>
+
+		<ul class="navbar">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About Me</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#portfolio">My Projects</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</header>
+
+	<!---home--->
+	<section class="home" id="home">
+		<div class="home-text">
+			<h4>Hello</h4>
+			<h1>I'M <br> Gowreeshan<span></span></h1>
+			<h3>Computer Engineering undergraduate</h3>
+			<!-- <a href="#" class="btn">Download Resume</a> -->
+		</div>
+		
+		<div class="about-img">
+			<img src="img/456.jpg">
+		</div>
+		
+	</section>
+
+	<!---about--->
+	<section class="about" id="about">
+		<div class="about-img">
+			<img src="img/kindpng.png">
+		</div>
+
+		<div class="about-text">
+			<h2>About Me</h2>
+			<h4>Hi, I'm Sachchithananthan Gowreeshan</h4>
+			<p> I am a computer engineering undergraduate of University of Sri Jayewardenepura (Miner in data Management). I am enthusiastic to learn new things. I'm looking forward for an internship opportunity.  </p>
+		
+			<!-- <a href="#" class="btn">Contact Me</a> -->
+		</div>
+	</section>
+
+	<!---services--->
+	<section class="skills" id="skills">
+		<div class="main-text">
+			<h2>My Skills </h2>
+			<!-- <h4>Better Design, Better Expericences</h4> -->
+		</div>
+
+		<div class="about__content-skills">
+            <br>
+            <div class="skills">
+              <div class="skills__skill">C</div>
+              <div class="skills__skill">C++</div>
+              <div class="skills__skill">Java</div>
+              <div class="skills__skill">XML</div>
+              <div class="skills__skill">Python</div>
+              <div class="skills__skill">SQL</div>
+			  <div class="skills__skill">GCP</div>
+              <div class="skills__skill">Android Studio</div>
+			  <div class="skills__skill">Visual Studio</div>
+              <div class="skills__skill">Firebase</div>
+			  <div class="skills__skill">GitHub</div>
+              <div class="skills__skill">Figma</div>
+			  
+            </div>
+          </div>
+	</section>
+
+	<!---portfolio--->
+	<section class="portfolio" id="portfolio">
+		<div class="main-text">
+			<h2>My Projects</h2>
+			<h4>Here is some of my work that I've done in various programming languages.</h4>
+		</div>
+
+		<div class="portfolio-content">
+			<div class="row">
+				<img src="img/lib.png">
+				<div class="main-row">
+					<div class="row-text">
+						<h6>LIB SYS </h6>
+					</div>
+					<div class="row-icon">
+						<i class='bx bx-heart'></i>
+					</div>
+				</div>
+				<h3>An Android Library Management Application using cloud services</h3>
+			</div>
+
+			<div class="row">
+				<img src="img/jdbc.png">
+				<div class="main-row">
+					<div class="row-text">
+						<h6>JDBC CRUD Operations </h6>
+					</div>
+					<div class="row-icon">
+						<i class='bx bx-heart'></i>
+					</div>
+				</div>
+				<h3>JDBC CRUD Operations Demonstration Application</h3>
+			</div>
+
+			<div class="row">
+				<img src="img/console.png">
+				<div class="main-row">
+					<div class="row-text">
+						<h6>Inventory Management Sys </h6>
+					</div>
+					<div class="row-icon">
+						<i class='bx bx-heart'></i>
+					</div>
+				</div>
+				<h3>A Console based Simple Inventory Management System in C++</h3>
+			</div>
+
+		</div>
+
+	
+	</section>
+
+	<!---contact--->
+	<section class="contact" id="contact">
+		<div class="contact-text">
+			<h2>Contact Me </h2>
+			
+			<div class="contact-list">
+				<li><a href="#">Sachchithananthan Gowreeshan</a></li>
+				<li><a href="#">No 106/1, Sivan Kovil Road,Thonikkal,Vavuniya</a></li>
+				<li><a href="#">gowreeshan1@gmail.com</a></li>
+				<li><a href="#">+94778051956</a></li>
+			</div>
+			<div class="contact-icons">
+				<a href="#"><i class='bx bxl-linkedin' onclick="gotoLinkedin()" ></i></a>
+				<a href="#"><i class='bx bxl-github' onclick="gotogithub()" ></i></a>
+			</div>
+		</div>
+
+		<!-- <div class="contact-form">
+			<form action="">
+				<input type="" placeholder="Enter Your Name" required>
+				<input type="email" placeholder="Enter Your Email" required>
+				<input type="" placeholder="Enter Your Subject">
+				<textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+				<input type="submit" value="Submit" class="send">
+			</form>
+		</div> -->
+	</section>
+
+	<div class="last-text">
+		<p>Sachchithananthan Gowreeshan © 2022</p>
+	</div>
+
+	<!---scroll-top--->
+	<a href="#" class="top"><i class='bx bx-up-arrow-alt' ></i></a>
+
+	<script src="https://unpkg.com/scrollreveal"></script>
+
+	<!---custom js link--->
+	<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
